@@ -1,0 +1,20 @@
+.address-text{
+	color: #989494;
+	float: right;
+}
+.address-text li {
+    display: inline-block;
+    font-size: 1.2em;
+    color: #989494;
+    margin-top: 1em;
+	font-weight: 100;
+	padding: 10px 10px;
+}
+
+.address-text li a {
+    color: #989494;
+	text-decoration:none;
+}
+.address-text li a:hover{
+    color: #f31313;
+}
