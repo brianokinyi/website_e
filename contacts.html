@@ -18,6 +18,9 @@
 <link href="css/font-awesome.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 
+<!-- add icon -->
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
 <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->    
@@ -127,7 +130,7 @@
                         <h2 class="title">Get in touch!</h2>
                         <form action="php/send_to_mail.php" method="post">
                             <input class="user-texts" type="text" name="name" id="name" value="Name" onFocus="if (this.value == 'Name') this.value = '';" onBlur="if (this.value == '') this.value = 'Name';" />
-                            <input class="user-texts" type="text" name="email" id="email" value="Email" onFocus="if (this.value == 'Email') this.value = '';" onBlur="if (this.value == '') this.value = 'Email';" />
+                            <input class="user-texts" type="email" name="email" id="email" value="Email" onFocus="if (this.value == 'Email') this.value = '';" onBlur="if (this.value == '') this.value = 'Email';" />
                             <textarea name="message" id="message" class="span6" onFocus="if (this.value == 'Message') this.value = '';" onBlur="if (this.value == '') this.value = 'Message';" >Message</textarea>
                             <div class="clear"></div>
                             <input type="reset" class="btn dark_btn" value="Clear form" />

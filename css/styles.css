@@ -21,3 +21,21 @@
 .user-texts{
 	width: 269px;
 }
+.scrolltop {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: rgb(200, 5, 0);
+  color: #fff;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.scrolltop:hover, .scrolltop:active, .scrolltop:focus {
+  color: #fff !important;
+  opacity: .75;
+}
